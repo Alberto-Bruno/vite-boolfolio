@@ -1,7 +1,7 @@
 <script >
 import axios from 'axios';
 import ProjectList from '../projects/projectList.vue';
-const apiBaseUrl = 'http://localhost:8000/api/';
+const apiBaseUrl = 'http://127.0.0.1:8000/api/';
 export default {
     name: 'HomePage',
     components: { ProjectList },
@@ -20,6 +20,7 @@ export default {
 </script>
 
 <template>
+    ciao
     <projects-list :projects="projects"></projects-list>
 </template>
 
