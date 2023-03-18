@@ -40,7 +40,7 @@ export default {
         <projects-list v-if="projects.length" :projects="projects"></projects-list>
 
         <div v-else class="text-center mt-5">
-            <h2>There aren't projects to show.</h2>
+            <h2>Non ci sono progetti da mostrare.</h2>
         </div>
 
     </div>

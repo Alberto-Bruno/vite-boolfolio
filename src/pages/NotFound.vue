@@ -7,8 +7,9 @@ export default {
 <template>
     <section id="not-found" class="d-flex flex-column align-items-center my-5">
         <p class="text-center mt-5">
-            Sorry, the page you're looking for has not been found. <br>
-            Come back to previous page.
+            La pagina che stai cercando non è stata trovata. <br>
+            Torna alla pagina precedente.
+
         </p>
         <button @click=$router.back() class="btn btn-primary">Back</button>
     </section>

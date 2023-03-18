@@ -24,7 +24,7 @@ export default {
                 class="btn btn-outline-primary">
                 <b>VIEW PROJECT!</b>
             </router-link>
-            <router-link v-else :to="{ name: 'home' }" class="btn btn-outline-primary"><b>GO BACK TO HOME</b></router-link>
+            <router-link v-else :to="{ name: 'home' }" class="btn btn-outline-primary"><b>TORNA ALLA HOME</b></router-link>
 
         </div>
     </div>

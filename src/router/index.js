@@ -3,8 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 // importing pages I'm going to use
 import HomePage from '../pages/HomePage.vue';
-import ProjectDetail from '../components/projects/ProjectDetail.vue';
 import NotFound from '../pages/NotFound.vue';
+import ProjectDetail from '../components/projects/ProjectDetail.vue';
 
 // router creation and definition of routes adresses
 const router = createRouter({
