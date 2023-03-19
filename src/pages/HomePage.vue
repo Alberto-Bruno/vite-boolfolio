@@ -42,7 +42,6 @@ export default {
         <div v-else class="text-center mt-5">
             <h2>Non ci sono progetti da mostrare.</h2>
         </div>
-
     </div>
 </template>
 <style></style>
